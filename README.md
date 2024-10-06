@@ -73,10 +73,3 @@ Both models are evaluated using:
 - **Test Loss, Accuracy, Precision, and Recall**: These metrics help determine how well the models perform on unseen data.
 - **Confusion Matrix**: This is used to see where the models are making correct and incorrect predictions.
 
-### Key Takeaways:
-- **DenseNet-121**: Implements a complex architecture suitable for medical image classification, leveraging dense connections to improve feature propagation.
-- **Custom CNN**: A simpler architecture that is easy to implement but may not be as effective as DenseNet for highly complex data.
-- **Callbacks and Efficiency**: The custom callbacks such as early stopping and memory tracking are used to make the training efficient.
-- **Comparison of Models**: Both models are trained and evaluated with similar datasets, but DenseNet-121 is expected to perform better due to its advanced architecture, though it requires more computational resources.
-
-The combination of these two models aims to compare a powerful pre-existing architecture (DenseNet) with a custom architecture in order to determine the most effective solution for lymphoma classification.
